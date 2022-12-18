@@ -50,11 +50,11 @@ export const entries = [
 				text: 'Design Pattern'
 			},
 			{
-				color: 'secondary',
+				color: 'primary',
 				text: 'Slang'
 			},
 			{
-				color: 'secondary',
+				color: 'primary',
 				text: 'Kafka'
 			}
 		]
@@ -81,11 +81,11 @@ export const entries = [
 				text: 'Bash'
 			},
 			{
-				color: 'secondary',
+				color: 'primary',
 				text: 'Wireshark'
 			},
 			{
-				color: 'secondary',
+				color: 'primary',
 				text: 'MongoDB'
 			}
 		]
@@ -108,11 +108,11 @@ export const entries = [
 				text: 'Python'
 			},
 			{
-				color: 'secondary',
+				color: 'primary',
 				text: 'CNN'
 			},
 			{
-				color: 'secondary',
+				color: 'primary',
 				text: 'SSR-Net'
 			}
 		]

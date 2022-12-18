@@ -42,7 +42,7 @@
 	</li>
 	<li class="website">
 		<span class="icon"><InternetIcon /></span>
-		<a href="https://harshitwalia.github.io" target="_blank"> harshitwalia.dev </a>
+		<a href="https://harshitwalia.github.io/" target="_blank"> harshitwalia.github.io </a>
 	</li>
 	<li class="github">
 		<span class="icon"><GitHubIcon /></span>

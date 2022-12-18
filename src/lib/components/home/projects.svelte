@@ -48,7 +48,15 @@
 						</div>
 					</div>
 				</Card>
-					<Card>
+
+			</ProjectsGrid>
+
+		</OneByOneGrid>
+		<br/>
+		<OneByOneGrid>
+			<ProjectsGrid>
+
+				<Card>
 					<div slot="image">
 						<Image path="projects" filename="gstforce" alt="GSTForce" />
 					</div>
@@ -57,11 +65,11 @@
 							GSTForce.in
 							<div class="links">
 								<a
-									class="text-secondary"
-									href="https://gstforce.in/"
-									target="_blank"
-									rel="noopener"
-									title="Open site"
+										class="text-secondary"
+										href="https://gstforce.in/"
+										target="_blank"
+										rel="noopener"
+										title="Open site"
 								>
 									<ExternalLinkIcon />
 								</a>

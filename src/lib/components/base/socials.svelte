@@ -8,7 +8,7 @@
 
 <div class="socials">
 	<a
-		href="https://twitter.com/Harshit04999541"
+		href="https://twitter.com/Harshitwalia97"
 		target="_blank"
 		rel="noopener"
 		title="Say Hi on Twitter"

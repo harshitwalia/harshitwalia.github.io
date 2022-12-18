@@ -25,11 +25,11 @@
 	<li>
 		Other
 		<div class="tags-container">
-			<span class="tag secondary">Agile</span>
-			<span class="tag secondary">.NET</span>
-			<span class="tag secondary">Linux</span>
-			<span class="tag secondary">MongoDB</span>
-			<span class="tag secondary">SQL</span>
+			<span class="tag">Agile</span>
+			<span class="tag">.NET</span>
+			<span class="tag">Linux</span>
+			<span class="tag">MongoDB</span>
+			<span class="tag">SQL</span>
 		</div>
 	</li>
 </ul>
