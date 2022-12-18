@@ -1,0 +1,1 @@
+const e="https://harshitwalia.dev",t=["Harshit Walia","Competitive Programmer","Software Developer","Open Source"],a="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.",s="Harshit Walia - Software Developer",i=`${e}/images/site-preview.png`;export{a as d,i,t as k,e as s,s as t};
