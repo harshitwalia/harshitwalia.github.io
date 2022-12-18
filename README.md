@@ -31,12 +31,4 @@ npm run dev
 
 The site should now be available at http://0.0.0.0:5173/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes.
 
-# Optimizing images
 
-I've built an image-optimizer script called [image-transmutation](https://github.com/matfantinel/image-transmutation) that is used on this website. For now, you have to run it manually, while I don't push it to npm.
-
-On the image-transmutation project folder, run:
-
-```shell
-node ./index.js --run --sourceFolder "../matfantinel.github.io/static/images" --targetFolder "../matfantinel.github.io/static/optimized-images" --inputFormats "jpg" --inputFormats "jpeg" --inputFormats "png" --outputFormats "webp" --outputFormats "avif" --outputFormats "png"
-```
