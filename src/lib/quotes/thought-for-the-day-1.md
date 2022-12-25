@@ -9,7 +9,7 @@ excerpt: 'Where the mind is without fear and the head is held high,
           Where tireless striving stretches its arms towards perfection,
           Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit,
           Where the mind is led forward by thee into ever-widening thought and action,
-          Into that heaven of freedom, my father, let my country awake'
+          Into that heaven of freedom, my father, let my country awake.'
 tags: [Inspiration, Motivation, Quotes, Thoughts]
 ---
 
