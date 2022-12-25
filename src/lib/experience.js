@@ -8,7 +8,7 @@ export const entries = [
 		id: 'amazon',
 		title: 'Amazon',
 		jobTitle: 'Software Development Engineer II',
-		timeframe: 'August, 2022 → Now',
+		timeframe: '2022 → Now',
 		current: true,
 		location: 'Gurugram, India',
 		description:
@@ -36,7 +36,7 @@ export const entries = [
 		id: 'goldman-sachs',
 		title: 'Goldman Sachs',
 		jobTitle: 'Technology Analyst',
-		timeframe: 'May, 2021 → July, 2022',
+		timeframe: '2021 → 2022',
 		location: 'Bangalore, India',
 		description:
 			"Developer in Global Markets Division, with special emphasis on creating intuitive trading platforms that track the firm’s inventory in real-time and provide better visibility and control over intra-day liquidity, ultimately facilitating traders to act decisively.",
@@ -63,7 +63,7 @@ export const entries = [
 		id: 'tower-research-capital',
 		title: 'Tower Research Capital',
 		jobTitle: 'Software Engineer II',
-		timeframe: 'June, 2019 → May, 2021',
+		timeframe: '2019 → 2021',
 		location: 'Gurugram, India',
 		description:
 			'Worked on developing softwares to improve automate & infrastructure surrounding the plumbing of finance',
@@ -94,7 +94,7 @@ export const entries = [
 		id: 'samsung',
 		title: 'Samsung Research Institute',
 		jobTitle: 'Student Trainee',
-		timeframe: 'May, 2018 → July, 2018',
+		timeframe: '2018 → 2018',
 		location: 'Bangalore, India',
 		description:
 			'Developed Apparent Age Estimation Software for Data Intelligence Team',
