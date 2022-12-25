@@ -14,6 +14,7 @@ It was built with a few goals in mind:
 - Privacy-friendly: I don't need to know who you are and what you do. It uses [Plausible](https://plausible.io/) instead of Google Analytics;
 - Pretty: have a pleasant design that is both accessible and pleasing to the eye.
 
+
 I achieved this with the help of SvelteKit. There is almost no JavaScript running, and it actually works with JS disabled! While JS is awesome, it's important to know when it's not needed.
 
 # Building & Running Locally
