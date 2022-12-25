@@ -1,6 +1,7 @@
 <script>
 	import ProjectsIcon from '$lib/svg/projects.svelte';
 	import BlogIcon from '$lib/svg/blog.svelte';
+	import QuoteIcon from '$lib/svg/quote.svelte';
 	import ExperienceIcon from '$lib/svg/experience.svelte';
 </script>
 
@@ -18,6 +19,10 @@
 		<a id="blog-btn" href="/blog" class="button primary">
 			<BlogIcon />
 			Blog
+		</a>
+		<a id="quote-btn" href="/quote" class="button primary">
+			<QuoteIcon />
+			Thoughts
 		</a>
 		<a id="experience-btn" href="#experience" class="button secondary-light">
 			<ExperienceIcon />
@@ -82,8 +87,11 @@
 				&#blog-btn {
 					order: 2;
 				}
-				&#experience-btn {
+				&#quote-btn {
 					order: 3;
+				}
+				&#experience-btn {
+					order: 4;
 				}
 			}
 
@@ -99,6 +107,9 @@
 					}
 					&#experience-btn {
 						order: 2;
+					}
+					&#quote-btn {
+						order: 4;
 					}
 				}
 			}

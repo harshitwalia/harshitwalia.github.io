@@ -1,10 +1,11 @@
 import { description, siteBaseUrl, title } from '$lib/meta';
 import posts from '$lib/posts';
+import quotes from '$lib/quotes';
 
 export const prerender = true;
 
 export async function GET() {
-	const body = xml(posts);
+	const body = xml(posts, quotes);
 	const headers = {
 		'Cache-Control': 'max-age=0, s-maxage=3600',
 		'Content-Type': 'application/xml'
@@ -12,7 +13,7 @@ export async function GET() {
 	return new Response(body, { headers });
 }
 
-const xml = (posts) => `
+const xml = (posts, quotes) => `
 <rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>${title}</title>
@@ -37,5 +38,24 @@ const xml = (posts) => `
       `
 			)
 			.join('')}
+    ${quotes
+	.map(
+		(quote) => `
+        <item>
+          <title>${quote.title}</title>
+          <description>${quote.excerpt}</description>
+          <link>${siteBaseUrl}/${quote.slug}/</link>
+          <pubDate>${new Date(quote.date).toISOString()}</pubDate>
+          ${quote.tags ? quote.tags.map((tag) => `<category term="${tag}" />`).join('') : ''}
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="${siteBaseUrl}/images/quotes/${
+			quote.slug
+		}/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="${siteBaseUrl}/images/quotes/${
+			quote.slug
+		}/cover.jpg"/>
+        </item>
+      `
+	)
+	.join('')}
   </channel>
 </rss>`;
