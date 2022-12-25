@@ -1,0 +1,70 @@
+
+<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Harshit Walia - Software Developer</title>
+    <link>https://harshitwalia.github.io/</link>
+    <description>I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.</description>
+    
+        <item>
+          <title>Open Source x Free Software: What's the difference?</title>
+          <description>Learn the difference between these two terms that often get mixed up.</description>
+          <link>https://harshitwalia.github.io//open-source-x-free-software/</link>
+          <pubDate>2022-12-23T00:00:00.000Z</pubDate>
+          <category term="Free Software" /><category term="Open Source" /><category term="Concepts" /><category term="FOSS" /><category term="FLOSS" /><category term="Libre Software" /><category term="Freedom" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/posts/open-source-x-free-software/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/posts/open-source-x-free-software/cover.jpg"/>
+        </item>
+      
+        <item>
+          <title>The purpose of this blog</title>
+          <description>Why does it exist?</description>
+          <link>https://harshitwalia.github.io//purpose-of-this-blog/</link>
+          <pubDate>2022-12-18T00:00:00.000Z</pubDate>
+          <category term="Meta" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/posts/purpose-of-this-blog/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/posts/purpose-of-this-blog/cover.jpg"/>
+        </item>
+      
+    
+        <item>
+          <title>Thought For the Day</title>
+          <description>Do not say It is morning and dismiss it with a name of yesterday See it for the first time as a new-born child that has no name.</description>
+          <link>https://harshitwalia.github.io//thought-for-the-day/</link>
+          <pubDate>2022-12-28T00:00:00.000Z</pubDate>
+          <category term="Inspiration" /><category term="Motivation" /><category term="Quotes" /><category term="Thoughts" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+        </item>
+      
+        <item>
+          <title>Thought For the Day</title>
+          <description>Man's abiding happiness is not in getting anything but in giving himself up to what is greater than himself to ideas which are larger than his individual self. The idea of his country of humanity of God.</description>
+          <link>https://harshitwalia.github.io//thought-for-the-day/</link>
+          <pubDate>2022-12-27T00:00:00.000Z</pubDate>
+          <category term="Inspiration" /><category term="Motivation" /><category term="Quotes" /><category term="Thoughts" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+        </item>
+      
+        <item>
+          <title>Thought For the Day</title>
+          <description>We live in this world when we love it.</description>
+          <link>https://harshitwalia.github.io//thought-for-the-day/</link>
+          <pubDate>2022-12-26T00:00:00.000Z</pubDate>
+          <category term="Inspiration" /><category term="Motivation" /><category term="Quotes" /><category term="Thoughts" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+        </item>
+      
+        <item>
+          <title>Thought For the Day</title>
+          <description>Where the mind is without fear and the head is held high, Where knowledge is free, Where the world has not been broken up into fragments by narrow domestic walls, Where words come out from the depth of truth, Where tireless striving stretches its arms towards perfection, Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit, Where the mind is led forward by thee into ever-widening thought and action, Into that heaven of freedom, my father, let my country awake</description>
+          <link>https://harshitwalia.github.io//thought-for-the-day/</link>
+          <pubDate>2022-12-25T00:00:00.000Z</pubDate>
+          <category term="Inspiration" /><category term="Motivation" /><category term="Quotes" /><category term="Thoughts" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/quotes/thought-for-the-day/cover.jpg"/>
+        </item>
+      
+  </channel>
+</rss>
