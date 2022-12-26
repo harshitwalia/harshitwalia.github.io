@@ -1,7 +1,7 @@
 ---
 slug: thought-for-the-day
 title: "Thought For the Day"
-date: 2022-12-22
+date: 2022-12-26
 excerpt: 'Where the mind is without fear and the head is held high,
           Where knowledge is free,
           Where the world has not been broken up into fragments by narrow domestic walls,
