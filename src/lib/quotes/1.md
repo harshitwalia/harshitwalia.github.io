@@ -1,6 +1,6 @@
 ---
 slug: thought-for-the-day
-title: "Thought For the Day"
+title: "Inspiring Thoughts"
 date: 2022-12-26
 excerpt: 'Where the mind is without fear and the head is held high,
           Where knowledge is free,
