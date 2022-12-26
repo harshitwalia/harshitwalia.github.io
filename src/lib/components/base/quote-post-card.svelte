@@ -1,14 +1,22 @@
 <script>
 	import Card from '$lib/components/base/card.svelte';
+	import Image from '$lib/components/base/image.svelte';
 	import Tag from './tag.svelte';
+	import dateformat from 'dateformat';
 	export let quote;
 	export let showImage = false;
 </script>
 
 {#if quote}
 	<Card>
+		<div slot="image">
+			{#if showImage}
+				<Image path="quotes/{quote.slug}" filename="cover" alt="Cover Image" />
+			{/if}
+		</div>
 		<div slot="content">
 			<div class="title">{quote.title}</div>
+			<div class="note">{dateformat(quote.date, 'UTC:dd mmmm yyyy')}</div>
 			<div class="text">{quote.excerpt}</div>
 		</div>
 		<div slot="footer">
