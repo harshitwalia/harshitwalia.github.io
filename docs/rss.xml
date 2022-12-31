@@ -6,6 +6,16 @@
     <description>I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.</description>
     
         <item>
+          <title>What Software Craftsmanship is about?</title>
+          <description>Why is there a software craftsmanship movement? What motivated it? What drives it now?</description>
+          <link>https://harshitwalia.github.io//software-craftmanship/</link>
+          <pubDate>2022-12-31T00:00:00.000Z</pubDate>
+          <category term="Clean Code" /><category term="Software Craftmanship" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://harshitwalia.github.io//images/posts/software-craftmanship/cover.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://harshitwalia.github.io//images/posts/software-craftmanship/cover.jpg"/>
+        </item>
+      
+        <item>
           <title>Open Source x Free Software: What's the difference?</title>
           <description>Learn the difference between these two terms that often get mixed up.</description>
           <link>https://harshitwalia.github.io//open-source-x-free-software/</link>
