@@ -1,1 +1,0 @@
-const e="https://harshitwalia.github.io/",t=["Harshit Walia","Competitive Programmer","Software Developer","Open Source"],i="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.",a="Harshit Walia - Software Developer",s=`${e}/images/site-preview.png`;export{i as d,s as i,t as k,e as s,a as t};

@@ -140,6 +140,10 @@ export const entries = [
 			},
 			{
 				color: 'primary',
+				text: 'Education'
+			},
+			{
+				color: 'primary',
 				text: 'Networking'
 			}
 		]
