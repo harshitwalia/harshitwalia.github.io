@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+		<link rel="manifest" href="/favicons/site.webmanifest" />
+		<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#0ca4a5" />
+		<link rel="shortcut icon" href="/favicons/favicon.ico" />
+		<link rel="icon" href="/favicons/favicon.svg" />
+
+		<!-- Tell browser this site is responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Tell browser this site supports light and dark mode -->
+		<meta name="color-scheme" content="light dark" />
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#C2E6E9" />
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#163F45" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+		<!-- Twitter stuff -->
+		<meta name="author" content="Harshit Walia" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@Harshitwalia97" />
+
+		<!-- Fonts -->
+		<!-- Preload on browsers that support it -->
+		<link rel="preload" as="font" type="text/css" href="/fonts/ubuntu-mono.css" />
+		<link rel="preload" as="font" type="text/css" href="/fonts/wotfard.css" />
+		<!-- Load normally on browsers that don't (Safari) -->
+		<link rel="stylesheet" type="text/css" href="/fonts/ubuntu-mono.css" />
+		<link rel="stylesheet" type="text/css" href="/fonts/wotfard.css" />
+
+		<!-- Plausible - ethical analytics -->
+		<script
+			async
+			defer
+			data-domain="harshitwalia.dev"
+			src="https://stats.harshitwalia.dev/js/index.js"
+		></script>
+		<script>
+			window.plausible =
+				window.plausible ||
+				function () {
+					(window.plausible.q = window.plausible.q || []).push(arguments);
+				};
+		</script>
+
+		<script>
+			// The script below uses Plausible to track the % of people that have a dark/light mode preference
+			// But it breaks the Bounce Rate metrics
+			if (plausible) {
+				if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+					plausible('Dark Mode Enabled');
+				} else if (
+					window.matchMedia &&
+					window.matchMedia('(prefers-color-scheme: light)').matches
+				) {
+					plausible('Light Mode Enabled');
+				} else {
+					plausible('No Dark/Light Preference');
+				}
+			}
+		</script>
+
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/app-18a501bc.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/waves-826c4383.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/footer-765571b3.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/3-2-1-grid-01e86fca.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/section-c62ff239.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/image-d661376f.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-ccb1a85a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-9ff2dfe8.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-6233cb23.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/meta-2a9245f5.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-5612100c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-79cb23d1.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/(waves)/_layout.svelte-6556aad2.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/waves-16f0437d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/footer-dbbe69f8.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/email-4f15540f.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/(waves)/quote/_page.svelte-d31af441.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/3-2-1-grid-6e62da8a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/section-420dd623.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/quote-post-card-1c8be85e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/image-a5bdb6a9.js"><title>Harshit Walia - Software Developer</title><!-- HEAD_svelte-cp3p9w_START --><meta name="keywords" content="Harshit Walia, Competitive Programmer, Software Developer, Open Source"><!-- HEAD_svelte-cp3p9w_END --><!-- HEAD_svelte-1wbk3s_START --><meta name="keywords" content="Harshit Walia, Competitive Programmer, Software Developer, Open Source"><meta name="description" content="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it."><meta property="og:description" content="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it."><meta name="twitter:description" content="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it."><meta property="og:title" content="Harshit Walia - Software Developer"><meta name="twitter:title" content="Harshit Walia - Software Developer"><meta property="og:image" content="https://harshitwalia.github.io//images/site-preview.png"><meta name="twitter:image" content="https://harshitwalia.github.io//images/site-preview.png"><!-- HEAD_svelte-1wbk3s_END -->
+	</head>
+	<body>
+		<div id="svelte-root">
+
+
+
+
+
+
+<div class="waves-container svelte-25s5b0"><svg class="waves svelte-25s5b0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax svelte-25s5b0"><use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(var(--page-background-color-rgb),0.7)" class="svelte-25s5b0"></use><use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(var(--page-background-color-rgb),0.5)" class="svelte-25s5b0"></use><use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(var(--page-background-color-rgb),0.3)" class="svelte-25s5b0"></use><use xlink:href="#gentle-wave" x="48" y="7" fill="var(--page-background-color)" class="svelte-25s5b0"></use></g></svg>
+</div>
+<header class="svelte-vmlxu5"><nav class="container svelte-vmlxu5"><div class="left svelte-vmlxu5"><a class="logo svelte-vmlxu5" href="/" alt="Site logo"><svg id="logo" width="1006" height="169" viewBox="0 0 1006 169" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-5moaer animated"><g id="icon" class="svelte-5moaer"><path d="M148.112 150.986C159.606 155.763 172.529 155.785 184.038 151.047C195.548 146.309 204.702 137.199 209.485 125.721L254.375 18.0134C242.882 13.2362 229.959 13.2142 218.449 17.9523C206.939 22.6904 197.786 31.8003 193.002 43.2782L148.112 150.986Z" fill="url(#paint0_linear)" class="svelte-5moaer"></path><path d="M73.8789 150.988C85.3724 155.766 98.2954 155.788 109.805 151.05C121.315 146.311 130.468 137.201 135.252 125.724L180.142 18.0162C168.649 13.239 155.726 13.217 144.216 17.9551C132.706 22.6931 123.553 31.8031 118.769 43.281L73.8789 150.988Z" fill="url(#paint1_linear)" class="svelte-5moaer"></path><g id="darker" class="svelte-5moaer"><path d="M9.18199 130.636C11.6709 124.669 13.7057 118.541 15.6676 112.396C16.6319 109.272 18.2278 106.38 20.3567 103.897C22.4855 101.415 25.1019 99.3947 28.044 97.9628C30.9861 96.5308 34.1912 95.7171 37.4609 95.572C40.7306 95.427 43.9953 95.9537 47.0529 97.1196C50.1106 98.2855 52.896 100.066 55.2369 102.35C57.5778 104.634 59.4242 107.374 60.6619 110.4C61.8996 113.426 62.5023 116.673 62.4326 119.941C62.3628 123.208 61.6222 126.427 60.2566 129.397C59.3419 131.465 58.1411 133.395 56.6895 135.129C50.4653 143.614 41.5646 149.762 31.4186 152.584C21.2726 155.407 10.471 154.74 0.750626 150.69L9.18199 130.636Z" fill="url(#paint2_linear)" class="svelte-5moaer"></path><path d="M97.0919 38.466C94.6031 44.4327 92.5682 50.5615 90.6063 56.7064C89.642 59.8298 88.0461 62.7223 85.9173 65.2049C83.7884 67.6875 81.172 69.7073 78.2299 71.1393C75.2878 72.5713 72.0827 73.385 68.813 73.53C65.5433 73.675 62.2786 73.1483 59.221 71.9825C56.1634 70.8166 53.3779 69.0364 51.037 66.752C48.6962 64.4677 46.8497 61.7279 45.612 58.7021C44.3743 55.6764 43.7716 52.4291 43.8414 49.1614C43.9111 45.8937 44.6517 42.675 46.0173 39.7046C46.9321 37.6368 48.1328 35.7073 49.5845 33.9726C55.8086 25.4878 64.7093 19.3399 74.8553 16.5176C85.0013 13.6953 95.8029 14.3625 105.523 18.412L97.0919 38.466Z" fill="url(#paint3_linear)" class="svelte-5moaer"></path></g></g><g id="name" class="svelte-5moaer"></g><defs><linearGradient id="paint0_linear" x1="169.78" y1="159.992" x2="232.561" y2="8.94658" gradientUnits="userSpaceOnUse"><stop stop-color="#66B3B3"></stop><stop offset="1" stop-color="#95CACA"></stop></linearGradient><linearGradient id="paint1_linear" x1="95.547" y1="159.995" x2="158.328" y2="8.94937" gradientUnits="userSpaceOnUse"><stop stop-color="#66B3B3"></stop><stop offset="1" stop-color="#95CACA"></stop></linearGradient><linearGradient id="paint2_linear" x1="52.6972" y1="105.259" x2="14.1123" y2="154.478" gradientUnits="userSpaceOnUse"><stop stop-color="#0CA4A5"></stop><stop offset="1" stop-color="#097677"></stop></linearGradient><linearGradient id="paint3_linear" x1="53.5767" y1="63.8427" x2="92.1617" y2="14.6241" gradientUnits="userSpaceOnUse"><stop stop-color="#0CA4A5"></stop><stop offset="1" stop-color="#097677"></stop></linearGradient></defs></svg></a>
+			<div class="links svelte-vmlxu5"><a href="/blog" class="svelte-vmlxu5">Blog</a>
+				<a href="/quote" class="svelte-vmlxu5">Thoughts</a>
+				<a href="/resume" class="svelte-vmlxu5">Resume</a></div></div>
+		<div class="right svelte-vmlxu5"><div class="socials svelte-1xbtv6l"><a href="https://twitter.com/Harshitwalia97" target="_blank" rel="noopener" title="Say Hi on Twitter" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+	<a href="https://github.com/harshitwalia" target="_blank" rel="noopener" title="See my GitHub profile" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+	<a href="https://www.linkedin.com/in/harshit-walia/" target="_blank" rel="noopener" title="Connect on LinkedIn" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+	<a href="mailto:emailharshitwalia@gmail.com" target="_blank" rel="noopener" title="Send an email to emailharshitwalia@gmail.com" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"></path></svg></a>
+</div></div></nav>
+</header>
+<main><section id="quote"><div class="section-container top svelte-746x6z"><div class="title-area svelte-746x6z"><div class="text svelte-746x6z"><h2>Food For Thought</h2>
+				</div>
+		</div>
+	<div class="content-area svelte-746x6z"><div class="container"><div class="grid-container svelte-1i7nkbm"><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Dream, dream, dream, Your dreams will transform into thoughts Thoughts lead to honest work Work will result in action And you will succeed.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Any country is as good as its citizen; their ethos, their values and their character will be reflected in the country’s make-up.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Each one of us on this planet creates a page in human history irrespective of who he or she is. I realise my experience is a small dot in human history, but that dot has a life and light.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Man's Abiding happiness is not in getting anything but in giving himself up to what is  greater than himself to ideas which are larger than his individual self the idea of his country  of humanity of God.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Do Not say It is morning and dismiss it with a name of yesterday see of for the first  time as a new-born child that has no name.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Let your life lightly dance on the edges of time like dew on the tip of leaf.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Everything comes to us that belongs to us if we create the capacity to receive it.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">With begging and scrambling we find very little but with being true to ourselves  we find a great deal more.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Providence expects that we should make this world our own and not live in it as though  it were a rented tenant we can only make it our own through some service and that service is to  lend oit love and beauty from our soul.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">I Slept and dreamt that life was joy I awoke and saw that life was service I acted and  behold service joy.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The meaning of our self is not to be found in its separateness from god and others but  in the ceaseless realisation of yoga of union.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The higher the proportion of creative leaders in a nation, higher the potential of success of visions like “Developed India”.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The same stream of life that runs through my veins night and day runs through thw world  and dances in rhythmic measures.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">We gain freedom whtn we have paid the full price for our right to live.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Asks the Possible of the impossible 'Where is your dwelling-place?'  'In the dreams the impotent' comes the answer.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Beauty is truth's smile when she beholds her own face in perfect mirror.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In love all the contradiction of existence merge themselves and are lost only in  love are  unity and duality not at variance love must be one and two at the same time bondage  and liberation are not antagonistic in love for love is most free and at thesame time most bound.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Not hammer strokes but dance of the water sings the pebbles into perfection.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">I have spent my days stringing and unstringing my instrument while the song  I came to sing remains unsung.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The butterfly counts not months but has time enough.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The emancipation of our physical nature is in attaining health of our social  being in attaining goodness and of our self in attaining love.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The potentiality of perfection outweighs actual contradictions.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Success is possible only when we have a commitment to action.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The fundamental desire of life is the desire to exist.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The most important lesson that man can learn from his life is not that there is pain  in this world but that it depends upon him to turn in into good account that it is possible  for him to transmute it into joy.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The water in a vessel is sparkling the water in the sea is dark the small truth  has words which are clear the great truth has great silence.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Whatever we treasure for ourselves separates us from others  Our possessions are our limitations.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Don't limit a child to your own learning for he was born in another time.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Death belongs to life as birth does the walk is in the raising of the foot as in the laying of it down.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Facts are many but the truth is one.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">To understand anything is to find in it something which is our own, and  it is the discovery of ourselves outside us which makes us glad this relation of understanding  is partial but the relation of love is complete.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The mountain remains unmoved at seeming defeat by the mist.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The tragedy of human life consists in our vain attempts to  stretch the limits of things which can never become unlimited and to reach the infinite by  absurdly adding to the rungs of the ladder of the finite.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">While moral leadership requires people to do the right things, entrepreneurial leadership requires people to acquire the habit of doing things right.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Those who have everything but thee my god laugh at those who have nothing but thyself.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The revealment of the infinite in the finite which is the motive of the all creation is not seen in its perfection in the starry heavens in the beauty of the flowers it is in the soul of man.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In its swelling pride the bubble doubts the truth of the sea and laughs and bursts into emptiness.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The greed for fruit misses the flower.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">To justify their own spilling of ink they spell the day as night.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">My clouds sorrowing in the dark forget that they themselves have hidden the sun.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">I am bale to love god because he gives me freedom to deny him.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Wealth is the burden of bigness welfare the fulness of being.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Connectivity is strength Connectivity is wealth Connectivity is progress.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">To Carry the burden of the instrument count the cost of its material and  never to know that it is for music is the tragedy of deaf life.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Open the door to that which must go for the loss becomes unseemly when obstructed.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The tapestry of life's story is woven with the threads of life's ties ever joining  and breaking.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In my life's garden my wealth has been of the shadows and lights that are never gathered and stored.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Profit smiles on goodness when the good is profitable.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Man discovers his own wealth when god comes to ask gifts of him.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The worm thinks it strange and foolish that man does not eat his books.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The sky remains infinitely vacant for earth there to build its heaven with dreams.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Life sends up in blades of grass its silent hymn of praise to the unnamed light.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Perception of disability lies in the mind.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Let me not grope in vain in the dark but keep my mind still in the faith that the day will break and truth will appear in its simplicity.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Let me light my lamp says the star and never debate if it will help to remove the darkness.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In the mountain stillness surges up to explore its own height in the lake movement stands still to contemplate its own depth.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Let me not pray to be sheltered from dangers but to be fearless in facing them  let me not beg for the stilling of my pain but for the heart to conquer it let me not loo  for allies in life's battlefield but to my own strength let me not cave in.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Age considers youth ventures.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">TWhile god waits for his temple to be built love men bring stones.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The burden of self is lightened when i  laugh at myself.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Clouds come floating into my life no longer to carry rain or usher storm but to  add colour to my sunset sky.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Every child comes with the message that god is not yet discouraged of man.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">These paper boats of mine are meant to dance on the ripples of hours and not to reach any destination.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">When learning is purposeful, creativity blossoms When creativity blossoms thinking emanates When thinking emanates knowledge is lit When knowledge is lit the nation progresses.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The sea of danger doubt and denial around man's little island of certainty challenges him to dare the unknown .</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Hills are the Earth's gesture of despair for the unreachable.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">To be outspoken is easy when you do not wait to speak the complete truth.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Welcome nearest to the great when we are great in humility.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Trees are Earth's endless efforts to speak to the listening heavens.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Taking shelter in the dead is death itself and only taking all the risk of life  to the fullest extent is living.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">You can't cross the sea merely by standing and staring ar the water.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The touch of an infinite mystery passes over the trivial and the familiar making it break out into ineffable music the trees the stars and the stars and the blue hills ache with a meaning which can never be uttered in words.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The soil in return for her service keeps the tree tied to her the sky asks noting and leaves it free.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A mind all logic is like a knife all blade it makes the hand bleed that uses it.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">With determined efforts you can always succeed against established beliefs.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Death is not extinguishing the light it is putting out the lamp because the dawn has come.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">He who wants to do good knocks at the gate he who loves finds the gate open.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The touch of an infinite mystery passes over the trivial and the familiar making it break out into ineffable music the trees the stars and the stars and the blue hills ache with a meaning which can never be uttered in words.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Want of love is a degree of callousness for love is the perfection of  consciousness we do not comprehend or rather we do not comprehend because we do not  love for love is the ultimate meaning of everything around us, it is not a mere sentiment  it is truth it is the joy that is at the root of all creation.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">If you shut your door to all errors truth will be shut out.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">If anger be the basis of our political activities the excitement tends to become an end  in itself at the expense of the object to be achieved such excitement is not an exercise of  strength but a display of weakness.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">IN the night we stumble over things and become acutely conscious of their separateness  but the day reveals the unity which embraces them.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In our desire for eternal life we pray for an eternity of our habit and comfort  forgetting that immortality is in repeatedly transcending the definite forms of life in order to pursue the infinite of life.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Our nature is obscured by work done by the compulsion of want or fear the mother reveals herself in the service of heer children so our true freedom is in action which can only be attained in the work of love.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Love does not claim possession but gives freedom.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Always be ready to walk the unexplored path.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">If life's journey be endless where is its goal the answer is it is everywhere we are  in a palace which has no end but which we have reached by exploring it and extending our  relationship with it we are ever making it more and more our own.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Leave out my name from the gift if it be a burden but keep my song.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Let the dead have the immortality of fame but the living the immortality of love.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Life like a child laughs shaking its rattle of death as it runs.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Man goes into the noisy crowd to drown his own clamour of silence.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The current of the world has its boundaries otherwise it could have no existence  but its purpose is not shown in the boundaries which restrain it but in its movement  which is toward perfection the wonder is not that there should be obstacles and sufferings  in this world but that there should be law and order beauty and joy goodness and love.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The fish in the water is silent the animal on the earth is noisy the bird in  the air is singing but man has in him the silence of the sea the noise of the earth and the  music of the air.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Time is a wealth of change but the clock in its parody makes it mere change and no wealth.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">From the solemn gloom of the temple children run out to sit in the dust  god watches them play and forgets the priest.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A great mind and a great heart go together.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Birth is from th mystery of night into the greater mystery of day.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The tree is of today the flower is old it brings with it the message of the immemorial seed.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">God's worlds is ever renewed by death a titan's ever crushed by its own existence.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Beauty knows to say enough barbarism clamours for still more.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The picture a memory of light treasured by the shadow.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The reed waits for his master's breath the master goes seeking for his reed.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">God in his temple of stars waits for man to bring him his lamp.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Child thou bringest to my hear the babble of the wind and the water the  flower's speechless secrets the cloud's dreams the mute gaze of wonder of the morning sky.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Let the evening forgive the mistake of the day and thus win peace for herself.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The grass survives the hill through its resurrections from countless deaths.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">We live in this world when we love it.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">You will be remembered for creating a page in the history of the nation.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">An unknown flower in a strange land speaks to the poet  are we not of the same soil my lover.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">To the blind pen the hand that writes is unreal it's writing unmeaning.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">When I stand before thee at the day's end thou shalt see my scars and know that  I had my wounds and also my healing.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">My last salutations are to them who knew me imperfect and loved me.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">When death comes and whispers to me the days are ended let me say to him, I have lived in love and not in mere time he will ask will thy songs remain I shall say I know not but this I know that often then I sang I found my eternity.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The whole universe is friendly to us and conspires to give the best to those who dream and work.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Enlightened citizenship has three components : education with value system, religion transforming into spiritual force, and creating economic prosperity through development.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">One cannot stop at thinking and asking questions. There is need to act to solve the problems and that requires hard work and perseverance.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Creativity and imagination of the human mind would always be superior to any computer”.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Education is an endless journey through knowledge and enlightenment.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Can we make an education system which will retain the smiles on the faces of our children?.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">It is through the process of innovation that knowledge is converted into wealth.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Beautiful minds are the source of creativity.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Creativity is the foundation of human thinking and will always be at the highest end of the value chain.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Encourage all children to dream for themselves. Unless they have dreams they will not be motivated to attain them.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Learning gives creativity Creativity leads to thinking Thinking provides knowledge Knowledge makes you great.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Every mind is creative, every mind is inquisitive.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The precious asset of a country is the skill, ingenuity and imagination of its people.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Thinking is progress Non-thinking is destruction Thinking leads to action.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Knowledge without action is useless and irrelevant Knowledge with action brings prosperity.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">What was thought impossible has happened and what is thought possible has not yet happened but it certainly will happen.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The education system has a tremendous responsibility to transform a child into a leader – the transformation from ‘What can you do for me’ to ‘What can I do for you’.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Conscience is a great ledger where our offences are booked and registered.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The most important part of education is to imbibe among the students the spirit of ‘we can do it’.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Hard work and perseverance are beautiful angels who will reside on your shoulders.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The ‘dream-thought-action’ philosophy is what I would like to be inculcated in each and every student.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">An ignited mind is the most powerful resource on the earth, above the earth and under the earth.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The three key societal members who can make a difference are father, mother and teacher.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Once taught, children become conscience keepers.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Education and values imparted in childhood are more important than the education received in college and university.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In a society we have to build righteousness among all its constituents.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The twenty-first century is about the management of all the knowledge and information we have generated and the value addition that we can bring to it.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Science and spiritualism seek the same divine blessings for doing good for the people.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Enlightened leadership is all about empowerment.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">In whatever field we work, we have to remain in the service of the common man whose well-being is central to all human knowledge and endeavour.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Our righteous toil is our guiding light If we work hard we all can prosper Nurture great thoughts rise up in actions May righteous methods be our guide.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Creativity is seeing the same thing as everybody else, but thinking of out-of-the-box solutions.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Teachers themselves should be lifelong learners.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A virtuous man alone can use the instrument of conscience.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">I believe there is no other profession in the world that is more important to society than that of a teacher.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A candle loses nothing by lighting another candle.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Conscience is the divine light of the soul that burns within the chambers of our psychological heart.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A teacher’s life lights many lamps.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">What matters in this life more than winning for ourselves, is helping others win.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A teacher has to create a lifelong autonomous learner.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Teachers have a great mission to ignite the minds of the young.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The convergence of science and technology with spirituality is touted to be the future for both science and technology, and spirituality.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Quality leaders are like magnets, they attract the best people.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">When a leader empowers the people, such leaders are created who can change the course of the nation itself.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Coming into contact with a good book and possessing it is an everlasting enrichment of life.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Give one hour a day exclusively for book reading and in a few years you will become a knowledge centre.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Science is all about asking questions and finding the right answers through hard work and research into laws of nature.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Music is a great communication and language can never be a barrier.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Keep asking questions till you get satisfactory answers.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Authors act as conscience keepers of the society.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Music and dance can be used as an instrument for ensuring global peace and act as a binding force.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The crowning glory of a nation is its thinkers.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">It is the privilege of authors that they can help mankind endure adversities and succeed in life.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Creative leadership is exercising the task to change the traditional role from commander to coach, from manager to mentor, from director to delegator and from one who demands respect to one who facilitates self-respect.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Learning needs freedom to think and freedom to imagine, and both have to be facilitated by the teacher.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Music and dance elevate you to a different plane altogether and give you a breeze of happiness and peace.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A combination of knowledge, enthusiasm and hard work of the youth is a great dynamic fire for transforming the nation.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A nation is great because of the way its people think.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">If India is to become developed by 2020, it will do so only by riding on the shoulders of the young.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Literature elevates the mind.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The young population of India must have a big aim, small aim is a crime.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">All of us need to think and realise that the nation is greater than any one individual or organization.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">We should all create a nation that is one of the best places to live in on this earth and which brings smiles to a billion faces.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Strength respects strength.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">It is not a disgrace to not reach the stars, but it is a disgrace to have no stars to reach for.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Only when each and every citizen has been empowered so that he can lead a fulfilled life with dignity, will there be national peace and prosperity.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">All of us have to work hard and do everything possible to make our behaviour civilized to protect the rights of every individual.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Repeating what we did before for several decades with more of the same may not be the way to proceed further.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Encompassing the needs , rights and expectations of youth to the centrestage of development should be our priority.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Not only does the teacher provide knowledge, but the teacher also shapes the student’s life with great dreams and aims.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The role of the teacher is like the proverbial ‘ladder’ – it is used by everyone to climb up in life – but the ladder stays in its place.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Science is the best boon that God has bestowed upon mankind.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A good sign of a developed nation is that ‘people who have’ work hard to bridge the divide between themselves and ‘those who have not’.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">From the emperor down to the common man, the cultivation of the righteous life is the foundation for all.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">At the frontier, there are no borders.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">A good book is a source of great knowledge and wealth for many generations.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">We have a right and responsibility to leave a positive legacy to the posterity for which we all will be remembered.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Technology is the non-linear tool available to humanity which can effect fundamental changes in the ground rules of economic competitiveness.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Our sweat will transform Developing India into a Developed India.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Transformation is an outcome of a farsighted vision, innovative mind and guiding spirit.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Art helps to bring out the beauty of life in its noblest forms, imparting meaning and depth to human existence, justifying and vindicating the purpose for which life was evolved.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Children and youth are the picture of a nation’s future. They are our hope for tomorrow.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">The science that we work with today must have the innovativeness, foresight and the vision for it to be the centre of technology that we develop tomorrow.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Focus of the education system should be to train students to become autonomous learners.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Enlightened spiritual and scientific leaders all converge towards giving reverence to human life.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Science and science pursuits are borderless.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div><div class="card"><div slot="image"></div>
+		<div class="body"><div class="content"><div slot="content"><div class="title">Inspiring Thoughts</div>
+			<div class="text">Where the mind is without fear and the head is held high, Where knowledge is free, Where the world has not been broken up into fragments by narrow domestic walls, Where words come out from the depth of truth, Where tireless striving stretches its arms towards perfection, Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit, Where the mind is led forward by thee into ever-widening thought and action, Into that heaven of freedom, my father, let my country awake.</div></div></div>
+			<div class="footer"><div slot="footer"><div class="tags"><div class="tag primary svelte-1gq1fza">Inspiration
+</div><div class="tag primary svelte-1gq1fza">Motivation
+</div></div></div></div></div></div>
+</div></div></div>
+</div></section></main>
+<footer class="svelte-1yo7hq0"><div class="wave"><svg width="100%" height="120" viewBox="0 0 1440 120" fill="none" style="transform: scale(-1,-1)" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="footer__wave"><path d="M0 0L48 8.875C96 17.9167 192 35.4167 288 53.3333C384 71.25 480 88.75 576 82.2083C672 75.4167 768 44.5833 864 26.6667C960 8.75 1056 4.58333 1152 11.125C1248 17.9167 1344 35.4167 1392 44.4583L1440 53.3333V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0V0Z" fill="var(--body-background-color)"></path></svg></div>
+	<div class="content svelte-1yo7hq0"><div class="copyright">© 2023 Harshit Walia. Made in India.
+		</div>
+		<div class="credits svelte-1yo7hq0">Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener">SvelteKit</a>.
+			Icons by <a href="https://iconoir.com/" target="_blank" rel="noopener">Iconoir</a>.
+		</div>
+		<div class="socials"><div class="socials svelte-1xbtv6l"><a href="https://twitter.com/Harshitwalia97" target="_blank" rel="noopener" title="Say Hi on Twitter" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+	<a href="https://github.com/harshitwalia" target="_blank" rel="noopener" title="See my GitHub profile" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+	<a href="https://www.linkedin.com/in/harshit-walia/" target="_blank" rel="noopener" title="Connect on LinkedIn" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+	<a href="mailto:emailharshitwalia@gmail.com" target="_blank" rel="noopener" title="Send an email to emailharshitwalia@gmail.com" class="svelte-1xbtv6l"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"></path></svg></a>
+</div></div></div>
+</footer>
+
+		<script type="module" data-sveltekit-hydrate="2mzn7e">
+			import { start } from "../_app/immutable/start-ccb1a85a.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="2mzn7e"]').parentNode,
+				version: "1673288758118",
+				hydrate: {
+					node_ids: [0, 3, 8],
+					data: [null,null,{type:"data",data:{quotes:[{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Dream, dream, dream, Your dreams will transform into thoughts Thoughts lead to honest work Work will result in action And you will succeed.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Any country is as good as its citizen; their ethos, their values and their character will be reflected in the country’s make-up.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Each one of us on this planet creates a page in human history irrespective of who he or she is. I realise my experience is a small dot in human history, but that dot has a life and light.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Man's Abiding happiness is not in getting anything but in giving himself up to what is  greater than himself to ideas which are larger than his individual self the idea of his country  of humanity of God.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Do Not say It is morning and dismiss it with a name of yesterday see of for the first  time as a new-born child that has no name.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Let your life lightly dance on the edges of time like dew on the tip of leaf.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Everything comes to us that belongs to us if we create the capacity to receive it.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"With begging and scrambling we find very little but with being true to ourselves  we find a great deal more.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Providence expects that we should make this world our own and not live in it as though  it were a rented tenant we can only make it our own through some service and that service is to  lend oit love and beauty from our soul.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"I Slept and dreamt that life was joy I awoke and saw that life was service I acted and  behold service joy.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The meaning of our self is not to be found in its separateness from god and others but  in the ceaseless realisation of yoga of union.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The higher the proportion of creative leaders in a nation, higher the potential of success of visions like “Developed India”.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The same stream of life that runs through my veins night and day runs through thw world  and dances in rhythmic measures.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"We gain freedom whtn we have paid the full price for our right to live.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Asks the Possible of the impossible 'Where is your dwelling-place?'  'In the dreams the impotent' comes the answer.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Beauty is truth's smile when she beholds her own face in perfect mirror.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In love all the contradiction of existence merge themselves and are lost only in  love are  unity and duality not at variance love must be one and two at the same time bondage  and liberation are not antagonistic in love for love is most free and at thesame time most bound.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Not hammer strokes but dance of the water sings the pebbles into perfection.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"I have spent my days stringing and unstringing my instrument while the song  I came to sing remains unsung.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The butterfly counts not months but has time enough.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The emancipation of our physical nature is in attaining health of our social  being in attaining goodness and of our self in attaining love.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The potentiality of perfection outweighs actual contradictions.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Success is possible only when we have a commitment to action.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The fundamental desire of life is the desire to exist.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The most important lesson that man can learn from his life is not that there is pain  in this world but that it depends upon him to turn in into good account that it is possible  for him to transmute it into joy.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The water in a vessel is sparkling the water in the sea is dark the small truth  has words which are clear the great truth has great silence.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Whatever we treasure for ourselves separates us from others  Our possessions are our limitations.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Don't limit a child to your own learning for he was born in another time.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Death belongs to life as birth does the walk is in the raising of the foot as in the laying of it down.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Facts are many but the truth is one.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"To understand anything is to find in it something which is our own, and  it is the discovery of ourselves outside us which makes us glad this relation of understanding  is partial but the relation of love is complete.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The mountain remains unmoved at seeming defeat by the mist.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The tragedy of human life consists in our vain attempts to  stretch the limits of things which can never become unlimited and to reach the infinite by  absurdly adding to the rungs of the ladder of the finite.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"While moral leadership requires people to do the right things, entrepreneurial leadership requires people to acquire the habit of doing things right.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Those who have everything but thee my god laugh at those who have nothing but thyself.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The revealment of the infinite in the finite which is the motive of the all creation is not seen in its perfection in the starry heavens in the beauty of the flowers it is in the soul of man.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In its swelling pride the bubble doubts the truth of the sea and laughs and bursts into emptiness.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The greed for fruit misses the flower.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"To justify their own spilling of ink they spell the day as night.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"My clouds sorrowing in the dark forget that they themselves have hidden the sun.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"I am bale to love god because he gives me freedom to deny him.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Wealth is the burden of bigness welfare the fulness of being.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Connectivity is strength Connectivity is wealth Connectivity is progress.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"To Carry the burden of the instrument count the cost of its material and  never to know that it is for music is the tragedy of deaf life.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Open the door to that which must go for the loss becomes unseemly when obstructed.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The tapestry of life's story is woven with the threads of life's ties ever joining  and breaking.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In my life's garden my wealth has been of the shadows and lights that are never gathered and stored.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Profit smiles on goodness when the good is profitable.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Man discovers his own wealth when god comes to ask gifts of him.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The worm thinks it strange and foolish that man does not eat his books.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The sky remains infinitely vacant for earth there to build its heaven with dreams.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Life sends up in blades of grass its silent hymn of praise to the unnamed light.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Perception of disability lies in the mind.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Let me not grope in vain in the dark but keep my mind still in the faith that the day will break and truth will appear in its simplicity.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Let me light my lamp says the star and never debate if it will help to remove the darkness.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In the mountain stillness surges up to explore its own height in the lake movement stands still to contemplate its own depth.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Let me not pray to be sheltered from dangers but to be fearless in facing them  let me not beg for the stilling of my pain but for the heart to conquer it let me not loo  for allies in life's battlefield but to my own strength let me not cave in.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Age considers youth ventures.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"TWhile god waits for his temple to be built love men bring stones.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The burden of self is lightened when i  laugh at myself.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Clouds come floating into my life no longer to carry rain or usher storm but to  add colour to my sunset sky.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Every child comes with the message that god is not yet discouraged of man.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"These paper boats of mine are meant to dance on the ripples of hours and not to reach any destination.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"When learning is purposeful, creativity blossoms When creativity blossoms thinking emanates When thinking emanates knowledge is lit When knowledge is lit the nation progresses.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The sea of danger doubt and denial around man's little island of certainty challenges him to dare the unknown .",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Hills are the Earth's gesture of despair for the unreachable.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"To be outspoken is easy when you do not wait to speak the complete truth.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Welcome nearest to the great when we are great in humility.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Trees are Earth's endless efforts to speak to the listening heavens.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Taking shelter in the dead is death itself and only taking all the risk of life  to the fullest extent is living.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"You can't cross the sea merely by standing and staring ar the water.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The touch of an infinite mystery passes over the trivial and the familiar making it break out into ineffable music the trees the stars and the stars and the blue hills ache with a meaning which can never be uttered in words.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The soil in return for her service keeps the tree tied to her the sky asks noting and leaves it free.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A mind all logic is like a knife all blade it makes the hand bleed that uses it.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"With determined efforts you can always succeed against established beliefs.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Death is not extinguishing the light it is putting out the lamp because the dawn has come.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"He who wants to do good knocks at the gate he who loves finds the gate open.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The touch of an infinite mystery passes over the trivial and the familiar making it break out into ineffable music the trees the stars and the stars and the blue hills ache with a meaning which can never be uttered in words.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Want of love is a degree of callousness for love is the perfection of  consciousness we do not comprehend or rather we do not comprehend because we do not  love for love is the ultimate meaning of everything around us, it is not a mere sentiment  it is truth it is the joy that is at the root of all creation.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"If you shut your door to all errors truth will be shut out.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"If anger be the basis of our political activities the excitement tends to become an end  in itself at the expense of the object to be achieved such excitement is not an exercise of  strength but a display of weakness.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"IN the night we stumble over things and become acutely conscious of their separateness  but the day reveals the unity which embraces them.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In our desire for eternal life we pray for an eternity of our habit and comfort  forgetting that immortality is in repeatedly transcending the definite forms of life in order to pursue the infinite of life.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Our nature is obscured by work done by the compulsion of want or fear the mother reveals herself in the service of heer children so our true freedom is in action which can only be attained in the work of love.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Love does not claim possession but gives freedom.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Always be ready to walk the unexplored path.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"If life's journey be endless where is its goal the answer is it is everywhere we are  in a palace which has no end but which we have reached by exploring it and extending our  relationship with it we are ever making it more and more our own.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Leave out my name from the gift if it be a burden but keep my song.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Let the dead have the immortality of fame but the living the immortality of love.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Life like a child laughs shaking its rattle of death as it runs.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Man goes into the noisy crowd to drown his own clamour of silence.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The current of the world has its boundaries otherwise it could have no existence  but its purpose is not shown in the boundaries which restrain it but in its movement  which is toward perfection the wonder is not that there should be obstacles and sufferings  in this world but that there should be law and order beauty and joy goodness and love.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The fish in the water is silent the animal on the earth is noisy the bird in  the air is singing but man has in him the silence of the sea the noise of the earth and the  music of the air.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Time is a wealth of change but the clock in its parody makes it mere change and no wealth.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"From the solemn gloom of the temple children run out to sit in the dust  god watches them play and forgets the priest.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A great mind and a great heart go together.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Birth is from th mystery of night into the greater mystery of day.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The tree is of today the flower is old it brings with it the message of the immemorial seed.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"God's worlds is ever renewed by death a titan's ever crushed by its own existence.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Beauty knows to say enough barbarism clamours for still more.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The picture a memory of light treasured by the shadow.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The reed waits for his master's breath the master goes seeking for his reed.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"God in his temple of stars waits for man to bring him his lamp.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Child thou bringest to my hear the babble of the wind and the water the  flower's speechless secrets the cloud's dreams the mute gaze of wonder of the morning sky.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Let the evening forgive the mistake of the day and thus win peace for herself.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The grass survives the hill through its resurrections from countless deaths.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"We live in this world when we love it.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"You will be remembered for creating a page in the history of the nation.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"An unknown flower in a strange land speaks to the poet  are we not of the same soil my lover.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"To the blind pen the hand that writes is unreal it's writing unmeaning.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"When I stand before thee at the day's end thou shalt see my scars and know that  I had my wounds and also my healing.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"My last salutations are to them who knew me imperfect and loved me.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"When death comes and whispers to me the days are ended let me say to him, I have lived in love and not in mere time he will ask will thy songs remain I shall say I know not but this I know that often then I sang I found my eternity.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The whole universe is friendly to us and conspires to give the best to those who dream and work.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Enlightened citizenship has three components : education with value system, religion transforming into spiritual force, and creating economic prosperity through development.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"One cannot stop at thinking and asking questions. There is need to act to solve the problems and that requires hard work and perseverance.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Creativity and imagination of the human mind would always be superior to any computer”.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Education is an endless journey through knowledge and enlightenment.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Can we make an education system which will retain the smiles on the faces of our children?.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"It is through the process of innovation that knowledge is converted into wealth.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Beautiful minds are the source of creativity.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Creativity is the foundation of human thinking and will always be at the highest end of the value chain.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Encourage all children to dream for themselves. Unless they have dreams they will not be motivated to attain them.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Learning gives creativity Creativity leads to thinking Thinking provides knowledge Knowledge makes you great.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Every mind is creative, every mind is inquisitive.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The precious asset of a country is the skill, ingenuity and imagination of its people.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Thinking is progress Non-thinking is destruction Thinking leads to action.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Knowledge without action is useless and irrelevant Knowledge with action brings prosperity.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"What was thought impossible has happened and what is thought possible has not yet happened but it certainly will happen.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The education system has a tremendous responsibility to transform a child into a leader – the transformation from ‘What can you do for me’ to ‘What can I do for you’.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Conscience is a great ledger where our offences are booked and registered.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The most important part of education is to imbibe among the students the spirit of ‘we can do it’.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Hard work and perseverance are beautiful angels who will reside on your shoulders.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The ‘dream-thought-action’ philosophy is what I would like to be inculcated in each and every student.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"An ignited mind is the most powerful resource on the earth, above the earth and under the earth.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The three key societal members who can make a difference are father, mother and teacher.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Once taught, children become conscience keepers.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Education and values imparted in childhood are more important than the education received in college and university.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In a society we have to build righteousness among all its constituents.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The twenty-first century is about the management of all the knowledge and information we have generated and the value addition that we can bring to it.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Science and spiritualism seek the same divine blessings for doing good for the people.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Enlightened leadership is all about empowerment.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"In whatever field we work, we have to remain in the service of the common man whose well-being is central to all human knowledge and endeavour.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Our righteous toil is our guiding light If we work hard we all can prosper Nurture great thoughts rise up in actions May righteous methods be our guide.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Creativity is seeing the same thing as everybody else, but thinking of out-of-the-box solutions.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Teachers themselves should be lifelong learners.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A virtuous man alone can use the instrument of conscience.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"I believe there is no other profession in the world that is more important to society than that of a teacher.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A candle loses nothing by lighting another candle.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Conscience is the divine light of the soul that burns within the chambers of our psychological heart.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A teacher’s life lights many lamps.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"What matters in this life more than winning for ourselves, is helping others win.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A teacher has to create a lifelong autonomous learner.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Teachers have a great mission to ignite the minds of the young.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The convergence of science and technology with spirituality is touted to be the future for both science and technology, and spirituality.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Quality leaders are like magnets, they attract the best people.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"When a leader empowers the people, such leaders are created who can change the course of the nation itself.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Coming into contact with a good book and possessing it is an everlasting enrichment of life.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Give one hour a day exclusively for book reading and in a few years you will become a knowledge centre.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Science is all about asking questions and finding the right answers through hard work and research into laws of nature.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Music is a great communication and language can never be a barrier.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Keep asking questions till you get satisfactory answers.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Authors act as conscience keepers of the society.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Music and dance can be used as an instrument for ensuring global peace and act as a binding force.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The crowning glory of a nation is its thinkers.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"It is the privilege of authors that they can help mankind endure adversities and succeed in life.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Creative leadership is exercising the task to change the traditional role from commander to coach, from manager to mentor, from director to delegator and from one who demands respect to one who facilitates self-respect.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Learning needs freedom to think and freedom to imagine, and both have to be facilitated by the teacher.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Music and dance elevate you to a different plane altogether and give you a breeze of happiness and peace.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A combination of knowledge, enthusiasm and hard work of the youth is a great dynamic fire for transforming the nation.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A nation is great because of the way its people think.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"If India is to become developed by 2020, it will do so only by riding on the shoulders of the young.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Literature elevates the mind.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The young population of India must have a big aim, small aim is a crime.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"All of us need to think and realise that the nation is greater than any one individual or organization.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"We should all create a nation that is one of the best places to live in on this earth and which brings smiles to a billion faces.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Strength respects strength.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"It is not a disgrace to not reach the stars, but it is a disgrace to have no stars to reach for.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Only when each and every citizen has been empowered so that he can lead a fulfilled life with dignity, will there be national peace and prosperity.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"All of us have to work hard and do everything possible to make our behaviour civilized to protect the rights of every individual.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Repeating what we did before for several decades with more of the same may not be the way to proceed further.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Encompassing the needs , rights and expectations of youth to the centrestage of development should be our priority.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Not only does the teacher provide knowledge, but the teacher also shapes the student’s life with great dreams and aims.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The role of the teacher is like the proverbial ‘ladder’ – it is used by everyone to climb up in life – but the ladder stays in its place.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Science is the best boon that God has bestowed upon mankind.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A good sign of a developed nation is that ‘people who have’ work hard to bridge the divide between themselves and ‘those who have not’.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"From the emperor down to the common man, the cultivation of the righteous life is the foundation for all.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"At the frontier, there are no borders.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"A good book is a source of great knowledge and wealth for many generations.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"We have a right and responsibility to leave a positive legacy to the posterity for which we all will be remembered.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Technology is the non-linear tool available to humanity which can effect fundamental changes in the ground rules of economic competitiveness.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Our sweat will transform Developing India into a Developed India.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Transformation is an outcome of a farsighted vision, innovative mind and guiding spirit.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Art helps to bring out the beauty of life in its noblest forms, imparting meaning and depth to human existence, justifying and vindicating the purpose for which life was evolved.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Children and youth are the picture of a nation’s future. They are our hope for tomorrow.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"The science that we work with today must have the innovativeness, foresight and the vision for it to be the centre of technology that we develop tomorrow.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Focus of the education system should be to train students to become autonomous learners.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Enlightened spiritual and scientific leaders all converge towards giving reverence to human life.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-27T00:00:00.000Z",excerpt:"Science and science pursuits are borderless.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"},{slug:"thought-for-the-day",title:"Inspiring Thoughts",date:"2022-12-26T00:00:00.000Z",excerpt:"Where the mind is without fear and the head is held high, Where knowledge is free, Where the world has not been broken up into fragments by narrow domestic walls, Where words come out from the depth of truth, Where tireless striving stretches its arms towards perfection, Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit, Where the mind is led forward by thee into ever-widening thought and action, Into that heaven of freedom, my father, let my country awake.",tags:["Inspiration","Motivation","Quotes","Thoughts"],readingTime:"0 min read"}]},uses:{}}],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
