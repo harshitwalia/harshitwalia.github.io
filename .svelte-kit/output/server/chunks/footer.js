@@ -25,7 +25,7 @@ const Socials = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"socials svelte-1xbtv6l"}"><a href="${"https://twitter.com/Harshitwalia97"}" target="${"_blank"}" rel="${"noopener"}" title="${"Say Hi on Twitter"}" class="${"svelte-1xbtv6l"}">${validate_component(Twitter, "TwitterIcon").$$render($$result, {}, {}, {})}</a>
 	<a href="${"https://github.com/harshitwalia"}" target="${"_blank"}" rel="${"noopener"}" title="${"See my GitHub profile"}" class="${"svelte-1xbtv6l"}">${validate_component(Github, "GitHubIcon").$$render($$result, {}, {}, {})}</a>
 	<a href="${"https://www.linkedin.com/in/harshit-walia/"}" target="${"_blank"}" rel="${"noopener"}" title="${"Connect on LinkedIn"}" class="${"svelte-1xbtv6l"}">${validate_component(Linkedin, "LinkedInIcon").$$render($$result, {}, {}, {})}</a>
-	<a href="${"mailto:emailharshitwalia@gmail.com"}" target="${"_blank"}" rel="${"noopener"}" title="${"Send an email to emailharshitwalia@gmail.com"}" class="${"svelte-1xbtv6l"}">${validate_component(Email, "EmailIcon").$$render($$result, {}, {}, {})}</a>
+	<a href="${"mailto:harshitwalia1997@gmail.com"}" target="${"_blank"}" rel="${"noopener"}" title="${"Send an email to harshitwalia1997@gmail.com"}" class="${"svelte-1xbtv6l"}">${validate_component(Email, "EmailIcon").$$render($$result, {}, {}, {})}</a>
 </div>`;
 });
 const header_svelte_svelte_type_style_lang = "";

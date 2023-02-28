@@ -32,10 +32,10 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="mailto:emailharshitwalia@gmail.com"
+		href="mailto:harshitwalia1997@gmail.com"
 		target="_blank"
 		rel="noopener"
-		title="Send an email to emailharshitwalia@gmail.com"
+		title="Send an email to harshitwalia1997@gmail.com"
 	>
 		<EmailIcon />
 	</a>

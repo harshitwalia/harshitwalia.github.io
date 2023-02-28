@@ -35,7 +35,7 @@ const Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	<li class="${"location svelte-qd7474"}"><span class="${"icon svelte-qd7474"}">${validate_component(Pin, "PinIcon").$$render($$result, {}, {}, {})}</span>
 		<span>Delhi, India</span></li>
 	<li class="${"email svelte-qd7474"}"><span class="${"icon svelte-qd7474"}">${validate_component(Email, "EmailIcon").$$render($$result, {}, {}, {})}</span>
-		<a href="${"mailto:emailharshitwalia@gmail.com"}" class="${"svelte-qd7474"}">emailharshitwalia@gmail.com</a></li>
+		<a href="${"mailto:harshitwalia1997@gmail.com"}" class="${"svelte-qd7474"}">harshitwalia1997@gmail.com</a></li>
 	<li class="${"linkedin svelte-qd7474"}"><span class="${"icon svelte-qd7474"}">${validate_component(Linkedin, "LinkedInIcon").$$render($$result, {}, {}, {})}</span>
 		<a href="${"https://www.linkedin.com/in/harshit-walia/"}" target="${"_blank"}" class="${"svelte-qd7474"}">LinkedIn Profile </a></li>
 	<li class="${"website svelte-qd7474"}"><span class="${"icon svelte-qd7474"}">${validate_component(Internet, "InternetIcon").$$render($$result, {}, {}, {})}</span>

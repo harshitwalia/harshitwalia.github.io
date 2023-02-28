@@ -34,7 +34,7 @@
 	</li>
 	<li class="email">
 		<span class="icon"><EmailIcon /></span>
-		<a href="mailto:emailharshitwalia@gmail.com">emailharshitwalia@gmail.com</a>
+		<a href="mailto:harshitwalia1997@gmail.com">harshitwalia1997@gmail.com</a>
 	</li>
 	<li class="linkedin">
 		<span class="icon"><LinkedInIcon /></span>
