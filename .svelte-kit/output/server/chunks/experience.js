@@ -134,36 +134,6 @@ const entries = [
         text: "SSR-Net"
       }
     ]
-  },
-  {
-    id: "codingforce",
-    title: "Coding Force",
-    jobTitle: "Founder",
-    timeframe: "2015 → 2019",
-    location: "Delhi, India",
-    description: "A community-driven platform of top-tier engineering college graduates for professional networking",
-    tags: [
-      {
-        color: "primary",
-        text: "Teaching"
-      },
-      {
-        color: "primary",
-        text: "Mentoring"
-      },
-      {
-        color: "primary",
-        text: "Programming"
-      },
-      {
-        color: "primary",
-        text: "Education"
-      },
-      {
-        color: "primary",
-        text: "Networking"
-      }
-    ]
   }
 ];
 export {
