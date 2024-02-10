@@ -37,9 +37,11 @@ declare module '$env/static/private' {
 	export const SHLVL: string;
 	export const npm_config_noproxy: string;
 	export const HOME: string;
+	export const CAML_LD_LIBRARY_PATH: string;
 	export const DESKTOP_SESSION: string;
 	export const npm_config_puppeteer_download_host: string;
 	export const npm_package_json: string;
+	export const OCAML_TOPLEVEL_PATH: string;
 	export const TERMINAL_EMULATOR: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GTK_MODULES: string;
@@ -52,6 +54,7 @@ declare module '$env/static/private' {
 	export const COLORTERM: string;
 	export const COLOR: string;
 	export const npm_config_metrics_registry: string;
+	export const GTK_IM_MODULE: string;
 	export const LOGNAME: string;
 	export const _: string;
 	export const npm_config_prefix: string;
@@ -88,6 +91,7 @@ declare module '$env/static/private' {
 	export const GDMSESSION: string;
 	export const LESSCLOSE: string;
 	export const GPG_AGENT_INFO: string;
+	export const OPAM_SWITCH_PREFIX: string;
 	export const QT_IM_MODULE: string;
 	export const npm_config_globalconfig: string;
 	export const npm_config_init_module: string;
@@ -98,6 +102,7 @@ declare module '$env/static/private' {
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
 	export const npm_command: string;
+	export const MANPATH: string;
 	export const VTE_VERSION: string;
 	export const INIT_CWD: string;
 	export const EDITOR: string;
@@ -142,9 +147,11 @@ declare module '$env/dynamic/private' {
 		SHLVL: string;
 		npm_config_noproxy: string;
 		HOME: string;
+		CAML_LD_LIBRARY_PATH: string;
 		DESKTOP_SESSION: string;
 		npm_config_puppeteer_download_host: string;
 		npm_package_json: string;
+		OCAML_TOPLEVEL_PATH: string;
 		TERMINAL_EMULATOR: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GTK_MODULES: string;
@@ -157,6 +164,7 @@ declare module '$env/dynamic/private' {
 		COLORTERM: string;
 		COLOR: string;
 		npm_config_metrics_registry: string;
+		GTK_IM_MODULE: string;
 		LOGNAME: string;
 		_: string;
 		npm_config_prefix: string;
@@ -193,6 +201,7 @@ declare module '$env/dynamic/private' {
 		GDMSESSION: string;
 		LESSCLOSE: string;
 		GPG_AGENT_INFO: string;
+		OPAM_SWITCH_PREFIX: string;
 		QT_IM_MODULE: string;
 		npm_config_globalconfig: string;
 		npm_config_init_module: string;
@@ -203,6 +212,7 @@ declare module '$env/dynamic/private' {
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
 		npm_command: string;
+		MANPATH: string;
 		VTE_VERSION: string;
 		INIT_CWD: string;
 		EDITOR: string;
