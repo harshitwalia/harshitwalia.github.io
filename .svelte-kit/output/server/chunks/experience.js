@@ -27,18 +27,23 @@ const yearsOfExperience = Math.abs(
 );
 const entries = [
   {
+    id: "atlassian",
+    title: "Atlassian",
+    jobTitle: "Software Engineer II",
+    timeframe: "2024 → Now",
+    current: true,
+    location: "Delhi, India",
+    description: "Search Enterprise Infrastructure",
+    tags: []
+  },
+  {
     id: "amazon",
     title: "Amazon",
     jobTitle: "Software Development Engineer II",
-    timeframe: "2022 → Now",
-    current: true,
+    timeframe: "2022 → 2024",
     location: "Gurugram, India",
     description: "Building interfaces and frameworks to improve Client Experience in Consumer Payments Team [August 2022-> March 2023] and Working on a comprehensive trial management solution catering to any team trial and testing needs. [March 2023 -> Now]",
     tags: [
-      {
-        color: "primary",
-        text: "React"
-      },
       {
         color: "primary",
         text: "GraphQL"
