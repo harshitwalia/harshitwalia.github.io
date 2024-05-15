@@ -13,7 +13,7 @@
 <div class="resume-wrapper">
 	<a
 		class="download-link button secondary-light"
-		href="https://drive.google.com/file/d/1egUWSLsP4CnD8vHnghuP_FIjtCKJST74/view?usp=share_link"
+		href="https://drive.google.com/file/d/15Lw-qDodtw6ZQPeeoaVg7MQqzVQzMp_t/view"
 	>
 		<DownloadIcon />
 		Download as PDF

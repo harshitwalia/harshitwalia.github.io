@@ -189,7 +189,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `<!-- HEAD_svelte-jqnzyl_START -->${$$result.title = `<title>Resume - ${escape(title)}</title>`, ""}<meta property="${"og:title"}" content="${"Resume - " + escape(title, true)}"><meta name="${"twitter:title"}" content="${"Resume - " + escape(title, true)}"><!-- HEAD_svelte-jqnzyl_END -->`, ""}
 
 
-<div class="${"resume-wrapper svelte-1uv12a6"}"><a class="${"download-link button secondary-light svelte-1uv12a6"}" href="${"https://drive.google.com/file/d/1egUWSLsP4CnD8vHnghuP_FIjtCKJST74/view?usp=share_link"}">${validate_component(Download, "DownloadIcon").$$render($$result, {}, {}, {})}
+<div class="${"resume-wrapper svelte-1uv12a6"}"><a class="${"download-link button secondary-light svelte-1uv12a6"}" href="${"https://drive.google.com/file/d/15Lw-qDodtw6ZQPeeoaVg7MQqzVQzMp_t/view"}">${validate_component(Download, "DownloadIcon").$$render($$result, {}, {}, {})}
 		Download as PDF
 	</a>
 	${validate_component(Resume, "Resume").$$render($$result, {}, {}, {})}
