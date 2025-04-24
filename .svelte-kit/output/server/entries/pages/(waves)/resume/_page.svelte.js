@@ -164,6 +164,9 @@ const Resume = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `Education`;
     }
   })}
+        <p class="${"svelte-1k6ewli"}"><b>Post Graduate Programme</b> at${escape(" ")}
+                    <i>IIM Ahmedabad</i>, 2027.
+        </p>
         <p class="${"svelte-1k6ewli"}">Graduated as a${escape(" ")}
             <b>Computer Engineer</b> at${escape(" ")}
             <i>Delhi Technological University</i>, 2019.

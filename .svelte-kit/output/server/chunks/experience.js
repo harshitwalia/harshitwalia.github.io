@@ -30,11 +30,28 @@ const entries = [
     id: "atlassian",
     title: "Atlassian",
     jobTitle: "Software Engineer II",
-    timeframe: "2024 → Now",
+    timeframe: "2024 → 2025",
     current: true,
     location: "Delhi, India",
-    description: "Search Enterprise Infrastructure",
-    tags: []
+    description: "In this role, I focused on streamlining processes, enhancing disaster recovery strategies, and optimizing resource use to drive cost efficiencies within the Search Enterprise Infra Team. A significant part of my role has been unblocking the path for potentially saving up to USD 1M per year.",
+    tags: [
+      {
+        color: "primary",
+        text: "Java"
+      },
+      {
+        color: "primary",
+        text: "Python"
+      },
+      {
+        color: "primary",
+        text: "AWS"
+      },
+      {
+        color: "primary",
+        text: "Operations"
+      }
+    ]
   },
   {
     id: "amazon",

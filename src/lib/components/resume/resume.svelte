@@ -39,6 +39,10 @@
     <section class="education">
         <SectionTitle>Education</SectionTitle>
         <p>
+                    <b>Post Graduate Programme</b> at{' '}
+                    <i>IIM Ahmedabad</i>, 2027.
+        </p>
+        <p>
             Graduated as a{' '}
             <b>Computer Engineer</b> at{' '}
             <i>Delhi Technological University</i>, 2019.
