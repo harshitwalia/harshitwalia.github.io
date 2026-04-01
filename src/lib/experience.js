@@ -5,6 +5,33 @@ export const yearsOfExperience = Math.abs(
 
 export const entries = [
 	{
+		id: 'microsoft',
+		title: 'Microsoft',
+		jobTitle: 'Associate Product Manager',
+		timeframe: '2026 → 2026',
+		current: true,
+		location: 'Hyderabad, India',
+		description: 'Product Management Internship focused on driving product strategy, user research, and cross-functional collaboration to deliver impactful solutions.',
+		tags: [
+			{
+				color: 'primary',
+				text: 'Product Management'
+			},
+			{
+				color: 'primary',
+				text: 'Strategy'
+			},
+			{
+				color: 'primary',
+				text: 'User Research'
+			},
+			{
+				color: 'primary',
+				text: 'Cross-functional'
+			}
+		]
+	},
+	{
     		id: 'atlassian',
     		title: 'Atlassian',
     		jobTitle: 'Software Engineer II',
