@@ -74,7 +74,7 @@ const css$4 = {
 const Title = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$4);
   return `<div class="${"resume-title"}"><h1 class="${"svelte-1uxg24e"}">Harshit Walia</h1>
-	<h5 class="${"svelte-1uxg24e"}">Software Developer</h5></div>`;
+	<h5 class="${"svelte-1uxg24e"}">Product Manager</h5></div>`;
 });
 const skills_svelte_svelte_type_style_lang = "";
 const css$3 = {

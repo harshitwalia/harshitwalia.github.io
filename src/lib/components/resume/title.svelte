@@ -1,6 +1,6 @@
 <div class="resume-title">
 	<h1>Harshit Walia</h1>
-	<h5>Software Developer</h5>
+	<h5>Product Manager</h5>
 </div>
 
 <style lang="scss">

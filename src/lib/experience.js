@@ -8,8 +8,8 @@ export const entries = [
     		id: 'atlassian',
     		title: 'Atlassian',
     		jobTitle: 'Software Engineer II',
-    		timeframe: '2024 → 2025',
-    		current: true,
+    		timeframe: '2024 → May 2025',
+    		current: false,
     		location: 'Delhi, India',
     		description:'In this role, I focused on streamlining processes, enhancing disaster recovery strategies, and optimizing resource use to drive cost efficiencies within the Search Enterprise Infra Team. A significant part of my role has been unblocking the path for potentially saving up to USD 1M per year.',
     		tags: [{

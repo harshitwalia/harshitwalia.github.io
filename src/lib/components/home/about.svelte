@@ -9,12 +9,14 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			I'm a developer aiming to build things that
+			I build things that
 			<SparklingHighlight>spark joy</SparklingHighlight>
 		</h2>
 		<p>
-			I believe software should be great for everyone — those who write it and those who use it —
-			and that bringing joy to problem-solving is the key to that.
+			I've always believed software should feel good - for the people using it and the people building it. That belief led me to found <strong>Coding Force</strong>, where I help developers grow their skills and actually enjoy the journey.
+		</p>
+		<p>
+			Now I'm moving into Product Management. Same curiosity, same care for people - just a wider lens.
 		</p>
 	</div>
 	<div class="avatar">

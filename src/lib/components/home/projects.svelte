@@ -62,7 +62,7 @@
 					</div>
 					<div slot="content">
 						<div class="title">
-							GSTForce.in
+							GST FORCE
 							<div class="links">
 								<a
 										class="text-secondary"

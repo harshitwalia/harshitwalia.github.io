@@ -1,0 +1,101 @@
+// Scroll-triggered animation classes
+// These work with the inview Svelte action
+
+// Base animation class - elements start hidden and animate when .in-view is added
+.animate-on-scroll {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 0.6s ease, transform 0.6s ease;
+
+	&.in-view {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Fade in animation
+.fade-in {
+	opacity: 0;
+	transition: opacity 0.6s ease;
+
+	&.in-view {
+		opacity: 1;
+	}
+}
+
+// Slide up animation
+.slide-up {
+	opacity: 0;
+	transform: translateY(40px);
+	transition: opacity 0.6s ease, transform 0.6s ease;
+
+	&.in-view {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Slide in from left
+.slide-in-left {
+	opacity: 0;
+	transform: translateX(-40px);
+	transition: opacity 0.6s ease, transform 0.6s ease;
+
+	&.in-view {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+// Slide in from right
+.slide-in-right {
+	opacity: 0;
+	transform: translateX(40px);
+	transition: opacity 0.6s ease, transform 0.6s ease;
+
+	&.in-view {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+// Scale in animation
+.scale-in {
+	opacity: 0;
+	transform: scale(0.95);
+	transition: opacity 0.6s ease, transform 0.6s ease;
+
+	&.in-view {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+// Staggered animation delays for children
+.stagger-children {
+	> * {
+		@for $i from 1 through 10 {
+			&:nth-child(#{$i}) {
+				transition-delay: #{($i - 1) * 0.1}s;
+			}
+		}
+	}
+}
+
+// Respect reduced motion preference
+@media (prefers-reduced-motion: reduce) {
+	.animate-on-scroll,
+	.fade-in,
+	.slide-up,
+	.slide-in-left,
+	.slide-in-right,
+	.scale-in {
+		opacity: 1;
+		transform: none;
+		transition: none;
+	}
+
+	.stagger-children > * {
+		transition-delay: 0s;
+	}
+}

@@ -70,14 +70,15 @@ const css$5 = {
 };
 const About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$5);
-  return `<section id="${"about"}" class="${"svelte-h1h4x6"}"><div class="${"info svelte-h1h4x6"}"><h2 class="${"svelte-h1h4x6"}">I&#39;m a developer aiming to build things that
+  return `<section id="${"about"}" class="${"svelte-h1h4x6"}"><div class="${"info svelte-h1h4x6"}"><h2 class="${"svelte-h1h4x6"}">I build things that
 			${validate_component(Sparkling_highlight, "SparklingHighlight").$$render($$result, {}, {}, {
     default: () => {
       return `spark joy`;
     }
   })}</h2>
-		<p class="${"svelte-h1h4x6"}">I believe software should be great for everyone — those who write it and those who use it —
-			and that bringing joy to problem-solving is the key to that.
+		<p class="${"svelte-h1h4x6"}">I&#39;ve always believed software should feel good - for the people using it and the people building it. That belief led me to found <strong>Coding Force</strong>, where I help developers grow their skills and actually enjoy the journey.
+		</p>
+		<p class="${"svelte-h1h4x6"}">Now I&#39;m moving into Product Management. Same curiosity, same care for people - just a wider lens.
 		</p></div>
 	<div class="${"avatar svelte-h1h4x6"}"><div class="${"blob one svelte-h1h4x6"}">${validate_component(Blob1, "Blob1").$$render($$result, {}, {}, {})}</div>
 		<div class="${"blob two svelte-h1h4x6"}">${validate_component(Blob2, "Blob2").$$render($$result, {}, {}, {})}</div>
@@ -343,7 +344,7 @@ const Projects = create_ssr_component(($$result, $$props, $$bindings, slots) => 
                     })}</div></div>`;
                   },
                   content: () => {
-                    return `<div slot="${"content"}"><div class="${"title svelte-lka8qn"}">GSTForce.in
+                    return `<div slot="${"content"}"><div class="${"title svelte-lka8qn"}">GST FORCE
 							<div class="${"links svelte-lka8qn"}"><a class="${"text-secondary svelte-lka8qn"}" href="${"https://gstforce.in/"}" target="${"_blank"}" rel="${"noopener"}" title="${"Open site"}">${validate_component(External_link, "ExternalLinkIcon").$$render($$result, {}, {}, {})}</a></div></div>
 						<div class="${"text"}">A web app for managing GST Force Community
 						</div></div>`;

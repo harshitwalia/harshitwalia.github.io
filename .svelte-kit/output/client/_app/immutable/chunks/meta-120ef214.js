@@ -1,0 +1,1 @@
+const t="https://harshitwalia.github.io/",a=["Harshit Walia","Competitive Programmer","Product Manager","Open Source"],i="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.",e="Harshit Walia - Product Manager",s=`${t}/images/site-preview.png`;export{i as d,s as i,a as k,t as s,e as t};
