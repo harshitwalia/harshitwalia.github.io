@@ -7,7 +7,7 @@ export const entries = [
 	{
 		id: 'microsoft',
 		title: 'Microsoft',
-		jobTitle: 'Associate Product Manager',
+		jobTitle: 'Product Manager Intern',
 		timeframe: '2026 → 2026',
 		current: true,
 		location: 'Hyderabad, India',
